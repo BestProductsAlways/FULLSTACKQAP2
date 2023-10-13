@@ -1,6 +1,6 @@
 // Raymond Payne
 // FullStack QAP2
-// Task 1 part 1, 2,3,
+// Task 1 Parts ALL
 
 const http = require('http');
 const url = require('url');
