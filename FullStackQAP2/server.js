@@ -1,5 +1,10 @@
+// Raymond Payne
+// FullStack QAP2
+// Task 1 part 1, 2,3,
+
 const http = require('http');
 const url = require('url');
+const port = 3000;
 
 // Create a server
 const server = http.createServer((req, res) => {
@@ -55,7 +60,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Set the server to listen on port 3000
-const port = 3000;
+
 server.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
