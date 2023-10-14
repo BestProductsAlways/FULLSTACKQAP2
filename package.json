@@ -1,0 +1,28 @@
+{
+  "name": "FULLSTACKQAP2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BestProductsAlways/FULLSTACKQAP2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BestProductsAlways/FULLSTACKQAP2/issues"
+  },
+  "homepage": "https://github.com/BestProductsAlways/FULLSTACKQAP2#readme",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

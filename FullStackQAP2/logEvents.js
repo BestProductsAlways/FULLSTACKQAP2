@@ -1,4 +1,3 @@
-const { clear } = require('console');
 const { format } = require('date-fns');
 const { v4: uuid } = ('uuid');
 
@@ -7,8 +6,8 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 
 const logEvents = async (message) => {
-    const dateTime = ' ${format(new Date(), 'yyyyMMdd')} ';
-    const lonItem = '${dateTime}\t${uuid()}\t${message}';
+    const dateTime = ` ${format(new Date(), 'yyyyMMdd\tHH:mm:ss')} `;
+    const lonItem = `${dateTime}\t${uuid()}\t${message}`;
     console.log(logItem);
     try{
         if (!fs.existsSync(path.join(__dirname, 'logs'))) {
