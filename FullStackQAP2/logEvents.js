@@ -7,7 +7,7 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 
 const logEvents = async (message) => {
-    const dateTime = ' ${format(new Date(), 'yyyyMMdd')} ';
+    const dateTime = ' ${format(new Date(), 'yyyyMMdd\tHH:mm:ss'} ';
     const lonItem = '${dateTime}\t${uuid()}\t${message}';
     console.log(logItem);
     try{
